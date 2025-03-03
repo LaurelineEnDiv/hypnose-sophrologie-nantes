@@ -1,0 +1,1 @@
+2025/03/03 11:40:37 [error] 92598#0: *3 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.0", upstream: "fastcgi://unix:/Users/augerlaureline/Library/Application Support/Local/run/HoOdXZZ1I/php/php-fpm.socket:", host: "hypnose-sophrologie-nantes-test.local"
