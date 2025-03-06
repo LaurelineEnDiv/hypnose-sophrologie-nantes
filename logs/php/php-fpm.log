@@ -10,3 +10,4 @@
 [03-Mar-2025 11:41:37] NOTICE: exiting, bye-bye!
 [03-Mar-2025 11:42:11] NOTICE: fpm is running, pid 95298
 [03-Mar-2025 11:42:11] NOTICE: ready to handle connections
+[05-Mar-2025 12:29:40] WARNING: [pool www] child 95304 said into stderr: "mysqldump: Got error: 1045: Access denied for user 'root'@'localhost' (using password: YES) when trying to connect"

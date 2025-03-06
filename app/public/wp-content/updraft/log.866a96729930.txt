@@ -1,0 +1,532 @@
+0000.002 (0) Opened log file at time: Wed, 05 Mar 2025 11:27:19 +0000 on http://hypnose-sophrologie-nantes-test.local
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.2 WP: 6.7.1 PHP: 7.4.30 (fpm-fcgi, Darwin auger-laurelines-imac.local 20.6.0 Darwin Kernel Version 20.6.0: Thu Jul  6 22:12:47 PDT 2023; root:xnu-7195.141.49.702.12~1/RELEASE_X86_64 x86_64) MySQL: 5.7.28 (max packet size=16777216) WPLANG: fr_FR Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 13.5M | 2M) multisite: N openssl: OpenSSL 1.1.1q  5 Jul 2022 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.007 (0) Free space on disk containing Updraft's temporary directory: 22802.6 MB
+0000.011 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.020 (0) Semaphore (fd, mod121_options) being initialised
+0000.025 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.031 (0) Set semaphore last lock (fd) time to 2025-03-05 11:27:19
+0000.032 (0) Semaphore lock (fd) complete
+0000.044 (0) Backup run: resumption=0, nonce=866a96729930, file_nonce=866a96729930 begun at=1741174039 (0s ago), job type=backup
+0000.046 (0) Scheduling a resumption (1) after 300 seconds (1741174339) in case this run gets aborted
+0000.099 (0) Checking if we have a zip executable available
+0000.100 (0) Testing: /usr/bin/zip
+0000.118 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.119 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.121 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.122 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.123 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.140 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.141 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.144 (0) Working binary zip found: /usr/bin/zip
+0000.145 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.145 (0) Creation of backups of directories: beginning
+0000.148 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.859 (0) Total entities for the zip file: 1450 directories, 7157 files (0 skipped as non-modified), 127.5 MB
+0001.867 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.879 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.885 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.895 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.901 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.910 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.917 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.926 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.932 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.942 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0001.943 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16.9 MB, 7157 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0003.664 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: size is now: 4.70 MB
+0003.673 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 1100 files added (on-disk size: 4834.5 KB)
+0003.679 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 1200 files added (on-disk size: 4834.5 KB)
+0003.684 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 1300 files added (on-disk size: 4834.5 KB)
+0003.690 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 1400 files added (on-disk size: 4834.5 KB)
+0003.695 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 1500 files added (on-disk size: 4834.5 KB)
+0003.702 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 1600 files added (on-disk size: 4834.5 KB)
+0003.707 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 1700 files added (on-disk size: 4834.5 KB)
+0003.713 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 1800 files added (on-disk size: 4834.5 KB)
+0003.719 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 1900 files added (on-disk size: 4834.5 KB)
+0003.725 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 2000 files added (on-disk size: 4834.5 KB)
+0003.726 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17.9 MB, 7157 files batched, 1001 (2002) added so far); re-opening (prior size: 4834.5 KB)
+0005.461 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: size is now: 12.80 MB
+0005.473 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 2100 files added (on-disk size: 13109.8 KB)
+0005.479 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 2200 files added (on-disk size: 13109.8 KB)
+0005.485 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 2300 files added (on-disk size: 13109.8 KB)
+0005.491 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 2400 files added (on-disk size: 13109.8 KB)
+0005.496 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 2500 files added (on-disk size: 13109.8 KB)
+0005.502 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 2600 files added (on-disk size: 13109.8 KB)
+0005.508 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 2700 files added (on-disk size: 13109.8 KB)
+0005.516 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 2800 files added (on-disk size: 13109.8 KB)
+0005.524 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 2900 files added (on-disk size: 13109.8 KB)
+0005.530 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 3000 files added (on-disk size: 13109.8 KB)
+0005.531 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (6.8 MB, 7157 files batched, 1001 (3003) added so far); re-opening (prior size: 13109.8 KB)
+0007.110 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 3100 files added (on-disk size: 15333.6 KB)
+0007.118 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 3200 files added (on-disk size: 15333.6 KB)
+0007.125 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 3300 files added (on-disk size: 15333.6 KB)
+0007.132 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 3400 files added (on-disk size: 15333.6 KB)
+0007.144 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 3500 files added (on-disk size: 15333.6 KB)
+0007.151 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 3600 files added (on-disk size: 15333.6 KB)
+0007.161 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 3700 files added (on-disk size: 15333.6 KB)
+0007.172 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 3800 files added (on-disk size: 15333.6 KB)
+0007.178 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 3900 files added (on-disk size: 15333.6 KB)
+0007.180 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (26.9 MB, 7157 files batched, 912 (3915) added so far); re-opening (prior size: 15333.6 KB)
+0009.686 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: size is now: 20.90 MB
+0009.691 (0) A useful amount of data was added after this amount of zip processing: 3.2 s (normalised: 3 s, rate: 8480.1 KB/s)
+0009.693 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.2488899230957, normalised_time=3.0188337494665, max_time=9.6902289390564, data points known=1, old_max_bytes=26214400, new_max_bytes=52101709)
+0009.699 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 4000 files added (on-disk size: 21386.2 KB)
+0009.704 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 4100 files added (on-disk size: 21386.2 KB)
+0009.710 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 4200 files added (on-disk size: 21386.2 KB)
+0009.716 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 4300 files added (on-disk size: 21386.2 KB)
+0009.721 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 4400 files added (on-disk size: 21386.2 KB)
+0009.727 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 4500 files added (on-disk size: 21386.2 KB)
+0009.732 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 4600 files added (on-disk size: 21386.2 KB)
+0009.738 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 4700 files added (on-disk size: 21386.2 KB)
+0009.743 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 4800 files added (on-disk size: 21386.2 KB)
+0009.749 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 4900 files added (on-disk size: 21386.2 KB)
+0009.751 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (40 MB, 7157 files batched, 1001 (4916) added so far); re-opening (prior size: 21386.2 KB)
+0013.152 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: size is now: 32.60 MB
+0013.166 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 5000 files added (on-disk size: 33394.6 KB)
+0013.172 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 5100 files added (on-disk size: 33394.6 KB)
+0013.178 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 5200 files added (on-disk size: 33394.6 KB)
+0013.185 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 5300 files added (on-disk size: 33394.6 KB)
+0013.191 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 5400 files added (on-disk size: 33394.6 KB)
+0013.198 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 5500 files added (on-disk size: 33394.6 KB)
+0013.205 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 5600 files added (on-disk size: 33394.6 KB)
+0013.212 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 5700 files added (on-disk size: 33394.6 KB)
+0013.219 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 5800 files added (on-disk size: 33394.6 KB)
+0013.225 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 5900 files added (on-disk size: 33394.6 KB)
+0013.227 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.8 MB, 7157 files batched, 1001 (5917) added so far); re-opening (prior size: 33394.6 KB)
+0014.748 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 6000 files added (on-disk size: 36156.5 KB)
+0014.756 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 6100 files added (on-disk size: 36156.5 KB)
+0014.763 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 6200 files added (on-disk size: 36156.5 KB)
+0014.770 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 6300 files added (on-disk size: 36156.5 KB)
+0014.778 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 6400 files added (on-disk size: 36156.5 KB)
+0014.786 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 6500 files added (on-disk size: 36156.5 KB)
+0014.796 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 6600 files added (on-disk size: 36156.5 KB)
+0014.802 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 6700 files added (on-disk size: 36156.5 KB)
+0014.808 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 6800 files added (on-disk size: 36156.5 KB)
+0014.814 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 6900 files added (on-disk size: 36156.5 KB)
+0014.816 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.4 MB, 7157 files batched, 1001 (6918) added so far); re-opening (prior size: 36156.5 KB)
+0016.788 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 7000 files added (on-disk size: 39437.9 KB)
+0016.795 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.tmp: 7100 files added (on-disk size: 39437.9 KB)
+0017.881 (0) Creating zip file manifest (backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.list-temp.tmp)
+0017.927 (0) Successfully created zip file manifest (size: 602422)
+0018.432 (0) Created plugins zip (0) - 39727 KB in 18.3 s (2173.3 KB/s) (sha1: 8772ac03f6530e53b5137e3e3c389650c3fa16bd, sha256: 9ff2d460f0ec1adc63b6f1ed2f408e7b1676ed58caf7135627df4823e1dbc0ed)
+0018.444 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0018.446 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-a341a16d0696babd0c84d5d955412998)
+0018.447 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0018.459 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0018.812 (0) Dropbox: quota usage: used=0 MB, total=2048 MB, available=2048 MB
+0018.813 (0) Dropbox: Attempt to upload: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip to: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip
+0019.870 (0) Dropbox chunked upload: 2.6 % uploaded (pid_upload_session:ABII6iCcwkI9Bji5DxNdwwcnSKOmRv6rHInr8uDYWHitff_-nA, 1048576, 8704 KB)
+0021.595 (0) Dropbox chunked upload: 24.5 % uploaded (pid_upload_session:ABII6iCcwkI9Bji5DxNdwwcnSKOmRv6rHInr8uDYWHitff_-nA, 9961472, 10240 KB)
+0023.560 (0) Dropbox chunked upload: 50.3 % uploaded (pid_upload_session:ABII6iCcwkI9Bji5DxNdwwcnSKOmRv6rHInr8uDYWHitff_-nA, 20447232, 10240 KB)
+0025.275 (0) Dropbox chunked upload: 76 % uploaded (pid_upload_session:ABII6iCcwkI9Bji5DxNdwwcnSKOmRv6rHInr8uDYWHitff_-nA, 30932992, 10240 KB)
+0026.995 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABII6iCcwkI9Bji5DxNdwwcnSKOmRv6rHInr8uDYWHitff_-nA, 40680401, 10240 KB)
+0028.469 (0) Recording as successfully uploaded: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip
+0028.485 (0) Deleting local file: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip: OK
+0028.486 (0) Dropbox: File upload success (backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip): 39726 KB in 9s (4107 KB/s)
+0028.494 (0) Beginning creation of dump of themes (split every: 400 MB)
+0029.040 (0) Total entities for the zip file: 388 directories, 2370 files (0 skipped as non-modified), 44.5 MB
+0029.048 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0029.054 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0029.059 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0029.065 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0029.070 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0029.076 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0029.082 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0029.089 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0029.094 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0029.100 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0029.101 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (24.1 MB, 2370 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0031.047 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-themes.zip.tmp: size is now: 13.80 MB
+0031.056 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-themes.zip.tmp: 1100 files added (on-disk size: 14099.4 KB)
+0031.064 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-themes.zip.tmp: 1200 files added (on-disk size: 14099.4 KB)
+0031.071 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-themes.zip.tmp: 1300 files added (on-disk size: 14099.4 KB)
+0031.079 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-themes.zip.tmp: 1400 files added (on-disk size: 14099.4 KB)
+0031.086 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-themes.zip.tmp: 1500 files added (on-disk size: 14099.4 KB)
+0031.096 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-themes.zip.tmp: 1600 files added (on-disk size: 14099.4 KB)
+0031.108 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-themes.zip.tmp: 1700 files added (on-disk size: 14099.4 KB)
+0031.118 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-themes.zip.tmp: 1800 files added (on-disk size: 14099.4 KB)
+0031.126 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-themes.zip.tmp: 1900 files added (on-disk size: 14099.4 KB)
+0031.147 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-themes.zip.tmp: 2000 files added (on-disk size: 14099.4 KB)
+0031.149 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.3 MB, 2370 files batched, 1001 (2002) added so far); re-opening (prior size: 14099.4 KB)
+0032.625 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-themes.zip.tmp: size is now: 21.30 MB
+0032.635 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-themes.zip.tmp: 2100 files added (on-disk size: 21823 KB)
+0032.642 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-themes.zip.tmp: 2200 files added (on-disk size: 21823 KB)
+0032.648 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-themes.zip.tmp: 2300 files added (on-disk size: 21823 KB)
+0033.592 (0) Creating zip file manifest (backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-themes.zip.list-temp.tmp)
+0033.607 (0) Successfully created zip file manifest (size: 174688)
+0033.897 (0) Created themes zip (0) - 24442.1 KB in 5.4 s (4527.4 KB/s) (sha1: 8de7a5584d34b5a004f674ca27ec676444ca383d, sha256: 28b4d76098bbd3aeca611ce3a9d7dbc06beb598bc6632762c2e7cb7162218158)
+0033.901 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0033.902 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-a341a16d0696babd0c84d5d955412998)
+0033.903 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0033.903 (0) Dropbox: access gained; setting chunk size to: 10240 KB
+0034.245 (0) Dropbox: quota usage: used=38.8 MB, total=2048 MB, available=2009.2 MB
+0034.246 (0) Dropbox: Attempt to upload: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-themes.zip to: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-themes.zip
+0036.112 (0) Dropbox chunked upload: 41.9 % uploaded (pid_upload_session:ABII6gfuhS42TXQyVBjSswrZOceS87SvTzNpPfeZv4A32FTkeg, 10485760, 10240 KB)
+0037.885 (0) Dropbox chunked upload: 83.8 % uploaded (pid_upload_session:ABII6gfuhS42TXQyVBjSswrZOceS87SvTzNpPfeZv4A32FTkeg, 20971520, 10240 KB)
+0039.039 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABII6gfuhS42TXQyVBjSswrZOceS87SvTzNpPfeZv4A32FTkeg, 25028740, 10240 KB)
+0040.755 (0) Recording as successfully uploaded: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-themes.zip
+0040.762 (0) Deleting local file: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-themes.zip: OK
+0040.763 (0) Dropbox: File upload success (backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-themes.zip): 24442 KB in 6s (3750 KB/s)
+0040.774 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0040.775 (0) Looking for candidates to backup in: /Users/augerlaureline/Local Sites/hypnose-sophrologie-nantes-test/app/public/wp-content/uploads
+0040.777 (0) finding files: 2022: adding to list (1)
+0040.778 (0) finding files: 2025: adding to list (2)
+0040.778 (0) finding files: pum-debug-166d9bf7b619ce8.56618243.log: adding to list (3)
+0040.779 (0) finding files: 2024: adding to list (4)
+0040.779 (0) finding files: 2023: adding to list (5)
+0040.780 (0) finding files: mk_templates: adding to list (6)
+0040.781 (0) finding files: .DS_Store: adding to list (7)
+0040.781 (0) finding files: js_composer: adding to list (8)
+0040.782 (0) finding files: wpforms: adding to list (9)
+0040.782 (0) finding files: elementor: adding to list (10)
+0040.783 (0) finding files: 2017: adding to list (11)
+0040.784 (0) finding files: oceanwp-webfonts-css: adding to list (12)
+0040.784 (0) finding files: 2019: adding to list (13)
+0040.785 (0) finding files: 2021: adding to list (14)
+0040.785 (0) finding files: 2020: adding to list (15)
+0040.786 (0) finding files: 2018: adding to list (16)
+0040.786 (0) finding files: 2016: adding to list (17)
+0040.787 (0) finding files: bfi_thumb: adding to list (18)
+0040.787 (0) finding files: .gitignore: adding to list (19)
+0040.788 (0) finding files: oceanwp-webfonts: adding to list (20)
+0040.788 (0) finding files: mk_assets: adding to list (21)
+0040.789 (0) finding files: pum: adding to list (22)
+0040.790 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0041.554 (0) Total entities for the zip file: 131 directories, 3272 files (0 skipped as non-modified), 333.2 MB
+0041.564 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0041.570 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0041.576 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0041.581 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0041.587 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0041.593 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip.tmp: 600 files added (on-disk size: 0 KB)
+0041.598 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 49.7 MB added on this batch (49.7 MB, 3272 files batched, 693 (693) added so far); re-opening (prior size: 0 KB)
+0043.271 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip.tmp: size is now: 43.90 MB
+0043.285 (0) A useful amount of data was added after this amount of zip processing: 2.8 s (normalised: 2.8 s, rate: 17919.1 KB/s)
+0043.288 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.8427410125732, normalised_time=2.8394580854123, max_time=43.284329891205, data points known=1, old_max_bytes=52101709, new_max_bytes=209715200)
+0043.291 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip.tmp: 700 files added (on-disk size: 44963.7 KB)
+0043.300 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip.tmp: 800 files added (on-disk size: 44963.7 KB)
+0043.307 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip.tmp: 900 files added (on-disk size: 44963.7 KB)
+0043.314 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip.tmp: 1000 files added (on-disk size: 44963.7 KB)
+0043.320 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip.tmp: 1100 files added (on-disk size: 44963.7 KB)
+0043.327 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip.tmp: 1200 files added (on-disk size: 44963.7 KB)
+0043.334 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip.tmp: 1300 files added (on-disk size: 44963.7 KB)
+0043.341 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip.tmp: 1400 files added (on-disk size: 44963.7 KB)
+0043.349 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip.tmp: 1500 files added (on-disk size: 44963.7 KB)
+0043.360 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip.tmp: 1600 files added (on-disk size: 44963.7 KB)
+0043.369 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (120.2 MB, 3272 files batched, 1001 (1694) added so far); re-opening (prior size: 44963.7 KB)
+0047.635 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip.tmp: size is now: 164.30 MB
+0047.645 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip.tmp: 1700 files added (on-disk size: 168270.1 KB)
+0047.651 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip.tmp: 1800 files added (on-disk size: 168270.1 KB)
+0047.656 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip.tmp: 1900 files added (on-disk size: 168270.1 KB)
+0047.662 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip.tmp: 2000 files added (on-disk size: 168270.1 KB)
+0047.667 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip.tmp: 2100 files added (on-disk size: 168270.1 KB)
+0047.673 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip.tmp: 2200 files added (on-disk size: 168270.1 KB)
+0047.680 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip.tmp: 2300 files added (on-disk size: 168270.1 KB)
+0047.686 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip.tmp: 2400 files added (on-disk size: 168270.1 KB)
+0047.692 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip.tmp: 2500 files added (on-disk size: 168270.1 KB)
+0047.698 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip.tmp: 2600 files added (on-disk size: 168270.1 KB)
+0047.703 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (93.8 MB, 3272 files batched, 1001 (2695) added so far); re-opening (prior size: 168270.1 KB)
+0053.215 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip.tmp: size is now: 258.30 MB
+0053.221 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip.tmp: 2700 files added (on-disk size: 264497.6 KB)
+0053.227 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip.tmp: 2800 files added (on-disk size: 264497.6 KB)
+0053.232 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip.tmp: 2900 files added (on-disk size: 264497.6 KB)
+0053.238 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip.tmp: 3000 files added (on-disk size: 264497.6 KB)
+0053.244 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip.tmp: 3100 files added (on-disk size: 264497.6 KB)
+0053.251 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip.tmp: 3200 files added (on-disk size: 264497.6 KB)
+0059.593 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip.tmp: size is now: 327.50 MB
+0059.634 (0) Creating zip file manifest (backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip.list-temp.tmp)
+0059.655 (0) Successfully created zip file manifest (size: 246825)
+0064.284 (0) Created uploads zip (0) - 335358.6 KB in 23.5 s (14275.5 KB/s) (sha1: ab90fdea6a2d2b8e144c1b8bcc18f3dc0f2cb8cb, sha256: dafedac7915dd41f9708e678f1860a95ef2b65eeaa85c98848b616df51dc499f)
+0064.292 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0064.293 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-a341a16d0696babd0c84d5d955412998)
+0064.294 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0064.296 (0) Dropbox: access gained; setting chunk size to: 10240 KB
+0064.657 (0) Dropbox: quota usage: used=62.7 MB, total=2048 MB, available=1985.3 MB
+0064.658 (0) Dropbox: Attempt to upload: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip to: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip
+0066.584 (0) Dropbox chunked upload: 3.1 % uploaded (pid_upload_session:ABII6sEMEWlllt6h47ZnpwKweGxoQTuZeHQkdB2pcAVU8m5P7w, 10485760, 10240 KB)
+0068.409 (0) Dropbox chunked upload: 6.1 % uploaded (pid_upload_session:ABII6sEMEWlllt6h47ZnpwKweGxoQTuZeHQkdB2pcAVU8m5P7w, 20971520, 10240 KB)
+0070.251 (0) Dropbox chunked upload: 9.2 % uploaded (pid_upload_session:ABII6sEMEWlllt6h47ZnpwKweGxoQTuZeHQkdB2pcAVU8m5P7w, 31457280, 10240 KB)
+0072.928 (0) Dropbox chunked upload: 12.2 % uploaded (pid_upload_session:ABII6sEMEWlllt6h47ZnpwKweGxoQTuZeHQkdB2pcAVU8m5P7w, 41943040, 10240 KB)
+0074.677 (0) Dropbox chunked upload: 15.3 % uploaded (pid_upload_session:ABII6sEMEWlllt6h47ZnpwKweGxoQTuZeHQkdB2pcAVU8m5P7w, 52428800, 10240 KB)
+0076.810 (0) Dropbox chunked upload: 18.3 % uploaded (pid_upload_session:ABII6sEMEWlllt6h47ZnpwKweGxoQTuZeHQkdB2pcAVU8m5P7w, 62914560, 10240 KB)
+0078.852 (0) Dropbox chunked upload: 21.4 % uploaded (pid_upload_session:ABII6sEMEWlllt6h47ZnpwKweGxoQTuZeHQkdB2pcAVU8m5P7w, 73400320, 10240 KB)
+0080.715 (0) Dropbox chunked upload: 24.4 % uploaded (pid_upload_session:ABII6sEMEWlllt6h47ZnpwKweGxoQTuZeHQkdB2pcAVU8m5P7w, 83886080, 10240 KB)
+0082.792 (0) Dropbox chunked upload: 27.5 % uploaded (pid_upload_session:ABII6sEMEWlllt6h47ZnpwKweGxoQTuZeHQkdB2pcAVU8m5P7w, 94371840, 10240 KB)
+0084.506 (0) Dropbox chunked upload: 30.5 % uploaded (pid_upload_session:ABII6sEMEWlllt6h47ZnpwKweGxoQTuZeHQkdB2pcAVU8m5P7w, 104857600, 10240 KB)
+0085.979 (0) Dropbox chunked upload: 33.6 % uploaded (pid_upload_session:ABII6sEMEWlllt6h47ZnpwKweGxoQTuZeHQkdB2pcAVU8m5P7w, 115343360, 10240 KB)
+0088.437 (0) Dropbox chunked upload: 36.6 % uploaded (pid_upload_session:ABII6sEMEWlllt6h47ZnpwKweGxoQTuZeHQkdB2pcAVU8m5P7w, 125829120, 10240 KB)
+0089.901 (0) Dropbox chunked upload: 39.7 % uploaded (pid_upload_session:ABII6sEMEWlllt6h47ZnpwKweGxoQTuZeHQkdB2pcAVU8m5P7w, 136314880, 10240 KB)
+0092.123 (0) Dropbox chunked upload: 42.7 % uploaded (pid_upload_session:ABII6sEMEWlllt6h47ZnpwKweGxoQTuZeHQkdB2pcAVU8m5P7w, 146800640, 10240 KB)
+0094.335 (0) Dropbox chunked upload: 45.8 % uploaded (pid_upload_session:ABII6sEMEWlllt6h47ZnpwKweGxoQTuZeHQkdB2pcAVU8m5P7w, 157286400, 10240 KB)
+0096.064 (0) Dropbox chunked upload: 48.9 % uploaded (pid_upload_session:ABII6sEMEWlllt6h47ZnpwKweGxoQTuZeHQkdB2pcAVU8m5P7w, 167772160, 10240 KB)
+0097.961 (0) Dropbox chunked upload: 51.9 % uploaded (pid_upload_session:ABII6sEMEWlllt6h47ZnpwKweGxoQTuZeHQkdB2pcAVU8m5P7w, 178257920, 10240 KB)
+0099.753 (0) Dropbox chunked upload: 55 % uploaded (pid_upload_session:ABII6sEMEWlllt6h47ZnpwKweGxoQTuZeHQkdB2pcAVU8m5P7w, 188743680, 10240 KB)
+0101.708 (0) Dropbox chunked upload: 58 % uploaded (pid_upload_session:ABII6sEMEWlllt6h47ZnpwKweGxoQTuZeHQkdB2pcAVU8m5P7w, 199229440, 10240 KB)
+0104.411 (0) Dropbox chunked upload: 61.1 % uploaded (pid_upload_session:ABII6sEMEWlllt6h47ZnpwKweGxoQTuZeHQkdB2pcAVU8m5P7w, 209715200, 10240 KB)
+0107.115 (0) Dropbox chunked upload: 64.1 % uploaded (pid_upload_session:ABII6sEMEWlllt6h47ZnpwKweGxoQTuZeHQkdB2pcAVU8m5P7w, 220200960, 10240 KB)
+0108.834 (0) Dropbox chunked upload: 67.2 % uploaded (pid_upload_session:ABII6sEMEWlllt6h47ZnpwKweGxoQTuZeHQkdB2pcAVU8m5P7w, 230686720, 10240 KB)
+0110.801 (0) Dropbox chunked upload: 70.2 % uploaded (pid_upload_session:ABII6sEMEWlllt6h47ZnpwKweGxoQTuZeHQkdB2pcAVU8m5P7w, 241172480, 10240 KB)
+0112.895 (0) Dropbox chunked upload: 73.3 % uploaded (pid_upload_session:ABII6sEMEWlllt6h47ZnpwKweGxoQTuZeHQkdB2pcAVU8m5P7w, 251658240, 10240 KB)
+0114.745 (0) Dropbox chunked upload: 76.3 % uploaded (pid_upload_session:ABII6sEMEWlllt6h47ZnpwKweGxoQTuZeHQkdB2pcAVU8m5P7w, 262144000, 10240 KB)
+0116.295 (0) Dropbox chunked upload: 79.4 % uploaded (pid_upload_session:ABII6sEMEWlllt6h47ZnpwKweGxoQTuZeHQkdB2pcAVU8m5P7w, 272629760, 10240 KB)
+0117.929 (0) Dropbox chunked upload: 82.4 % uploaded (pid_upload_session:ABII6sEMEWlllt6h47ZnpwKweGxoQTuZeHQkdB2pcAVU8m5P7w, 283115520, 10240 KB)
+0119.895 (0) Dropbox chunked upload: 85.5 % uploaded (pid_upload_session:ABII6sEMEWlllt6h47ZnpwKweGxoQTuZeHQkdB2pcAVU8m5P7w, 293601280, 10240 KB)
+0121.614 (0) Dropbox chunked upload: 88.5 % uploaded (pid_upload_session:ABII6sEMEWlllt6h47ZnpwKweGxoQTuZeHQkdB2pcAVU8m5P7w, 304087040, 10240 KB)
+0123.825 (0) Dropbox chunked upload: 91.6 % uploaded (pid_upload_session:ABII6sEMEWlllt6h47ZnpwKweGxoQTuZeHQkdB2pcAVU8m5P7w, 314572800, 10240 KB)
+0125.546 (0) Dropbox chunked upload: 94.7 % uploaded (pid_upload_session:ABII6sEMEWlllt6h47ZnpwKweGxoQTuZeHQkdB2pcAVU8m5P7w, 325058560, 10240 KB)
+0127.270 (0) Dropbox chunked upload: 97.7 % uploaded (pid_upload_session:ABII6sEMEWlllt6h47ZnpwKweGxoQTuZeHQkdB2pcAVU8m5P7w, 335544320, 10240 KB)
+0128.987 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABII6sEMEWlllt6h47ZnpwKweGxoQTuZeHQkdB2pcAVU8m5P7w, 343407224, 10240 KB)
+0130.461 (0) Recording as successfully uploaded: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip
+0130.502 (0) Deleting local file: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip: OK
+0130.503 (0) Dropbox: File upload success (backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip): 335358 KB in 65s (5093 KB/s)
+0130.513 (0) No backup of mu-plugins: excluded by user's options
+0130.516 (0) Beginning backup of other directories found in the content directory (index: 0)
+0130.517 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0130.518 (0) Looking for candidates to backup in: /Users/augerlaureline/Local Sites/hypnose-sophrologie-nantes-test/app/public/wp-content
+0130.519 (0) finding files: upgrade: skipping: excluded by options
+0130.520 (0) finding files: .DS_Store: adding to list (1)
+0130.520 (0) finding files: index.php: adding to list (2)
+0130.521 (0) finding files: upgrade-temp-backup: adding to list (3)
+0130.521 (0) finding files: plugins: skipping: this is the plugins directory
+0130.522 (0) finding files: uploads: skipping: this is the uploads directory
+0130.523 (0) finding files: updraft: skipping: this is the updraft directory
+0130.523 (0) finding files: advanced-cache.php: adding to list (4)
+0130.524 (0) finding files: languages: adding to list (5)
+0130.524 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0130.524 (0) finding files: themes: skipping: this is the themes directory
+0130.706 (0) Total entities for the zip file: 5 directories, 1027 files (0 skipped as non-modified), 40.8 MB
+0130.713 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0130.718 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0130.725 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0130.731 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-others.zip.tmp: 400 files added (on-disk size: 0 KB)
+0130.736 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-others.zip.tmp: 500 files added (on-disk size: 0 KB)
+0130.742 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-others.zip.tmp: 600 files added (on-disk size: 0 KB)
+0130.747 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-others.zip.tmp: 700 files added (on-disk size: 0 KB)
+0130.753 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-others.zip.tmp: 800 files added (on-disk size: 0 KB)
+0130.759 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-others.zip.tmp: 900 files added (on-disk size: 0 KB)
+0130.764 (0) Zip: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-others.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0130.765 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (40.7 MB, 1027 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0134.300 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-others.zip.tmp: size is now: 11.80 MB
+0134.482 (0) Creating zip file manifest (backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-others.zip.list-temp.tmp)
+0134.489 (0) Successfully created zip file manifest (size: 66616)
+0134.622 (0) Created others zip (0) - 12086.8 KB in 4.1 s (2956.7 KB/s) (sha1: b63d7b15f6cb45d3e93d6fec243f11e3e5e6329c, sha256: a4d0c6ce035549d671e137b43b27e32795fe0fcc63a8a6ed19f15dd7e654c29b)
+0134.626 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0134.627 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-a341a16d0696babd0c84d5d955412998)
+0134.627 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0134.629 (0) Dropbox: access gained; setting chunk size to: 10240 KB
+0134.976 (0) Dropbox: quota usage: used=390.2 MB, total=2048 MB, available=1657.8 MB
+0134.977 (0) Dropbox: Attempt to upload: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-others.zip to: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-others.zip
+0136.731 (0) Dropbox chunked upload: 84.7 % uploaded (pid_upload_session:ABII6m55xJQD9hd_rk-1TG60IZ6xT5NbajXOBgaXw7lIosGCoA, 10485760, 10240 KB)
+0138.326 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABII6m55xJQD9hd_rk-1TG60IZ6xT5NbajXOBgaXw7lIosGCoA, 12376872, 10240 KB)
+0139.797 (0) Recording as successfully uploaded: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-others.zip
+0139.814 (0) Deleting local file: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-others.zip: OK
+0139.815 (0) Dropbox: File upload success (backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-others.zip): 12086 KB in 4s (2498 KB/s)
+0139.825 (0) Saving backup status to database (elements: 8)
+0139.827 (0) Beginning creation of database dump (WordPress DB)
+0139.829 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0139.844 (0) Testing potential mysqldump binary: /usr/local/bin/mysqldump
+0141.332 (0) Binary mysqldump: error (code: 2)
+0141.454 (0) Table mod121_options: Total expected rows (via COUNT): 519
+0141.546 (0) Table mod121_options: Rows added in this batch (next record: 562196): 515 (uncompressed bytes in this segment=1603879) in 0.16 seconds
+0141.553 (0) Table mod121_options: finishing file(s) (2, 186.2 KB)
+0141.559 (0) Table mod121_users: Total expected rows (via COUNT): 2
+0141.560 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0141.564 (0) Table mod121_users: Rows added in this batch (next record: 3): 2 (uncompressed bytes in this segment=1315) in 0.01 seconds
+0141.569 (0) Table mod121_users: finishing file(s) (2, 0.6 KB)
+0141.575 (0) Table mod121_usermeta: Total expected rows (via COUNT): 78
+0141.576 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0141.580 (0) Table mod121_usermeta: Rows added in this batch (next record: 127): 78 (uncompressed bytes in this segment=11376) in 0.01 seconds
+0141.585 (0) Table mod121_usermeta: finishing file(s) (2, 3.7 KB)
+0141.595 (0) Table mod121_actionscheduler_actions: Total expected rows (via COUNT): 20
+0141.596 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0141.599 (0) Table mod121_actionscheduler_actions: Rows added in this batch (next record: 6634): 20 (uncompressed bytes in this segment=9294) in 0.01 seconds
+0141.604 (0) Table mod121_actionscheduler_actions: finishing file(s) (2, 1.4 KB)
+0141.609 (0) Table mod121_actionscheduler_claims: Total expected rows (via COUNT): 0
+0141.613 (0) Table mod121_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=649) in 0.01 seconds
+0141.618 (0) Table mod121_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0141.621 (0) Table mod121_actionscheduler_groups: Total expected rows (via COUNT): 2
+0141.622 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0141.626 (0) Table mod121_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=734) in 0.01 seconds
+0141.631 (0) Table mod121_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0141.641 (0) Table mod121_actionscheduler_logs: Total expected rows (via COUNT): 48
+0141.642 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0141.645 (0) Table mod121_actionscheduler_logs: Rows added in this batch (next record: 48): 48 (uncompressed bytes in this segment=5033) in 0.01 seconds
+0141.650 (0) Table mod121_actionscheduler_logs: finishing file(s) (2, 0.9 KB)
+0141.665 (0) Table mod121_commentmeta: Total expected rows (via COUNT): 0
+0141.668 (0) Table mod121_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=632) in 0.00 seconds
+0141.673 (0) Table mod121_commentmeta: finishing file(s) (2, 0.4 KB)
+0141.681 (0) Table mod121_comments: Total expected rows (via COUNT): 70
+0141.682 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0141.701 (0) Table mod121_comments: Rows added in this batch (next record: 178): 70 (uncompressed bytes in this segment=60499) in 0.02 seconds
+0141.706 (0) Table mod121_comments: finishing file(s) (2, 18.6 KB)
+0141.720 (0) Table mod121_links: Total expected rows (via COUNT): 0
+0141.723 (0) Table mod121_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1021) in 0.00 seconds
+0141.727 (0) Table mod121_links: finishing file(s) (2, 0.4 KB)
+0141.765 (0) Table mod121_postmeta: Total expected rows (approximate): 4208
+0141.845 (0) Table mod121_postmeta: Rows added in this batch (next record: 18333): 4208 (uncompressed bytes in this segment=1158524) in 0.12 seconds
+0141.852 (0) Table mod121_postmeta: finishing file(s) (2, 127 KB)
+0141.890 (0) Table mod121_posts: Total expected rows (via COUNT): 479
+0141.891 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0141.978 (0) Table mod121_posts: Rows added in this batch (next record: 6738): 479 (uncompressed bytes in this segment=946289) in 0.12 seconds
+0141.987 (0) Table mod121_posts: finishing file(s) (2, 144.3 KB)
+0141.996 (0) Table mod121_term_relationships: Total expected rows (approximate): 62
+0142.003 (0) Table mod121_term_relationships: Rows added in this batch (next record: 100000): 62 (uncompressed bytes in this segment=1619) in 0.01 seconds
+0142.010 (0) Table mod121_term_relationships: finishing file(s) (2, 0.6 KB)
+0142.021 (0) Table mod121_term_taxonomy: Total expected rows (via COUNT): 12
+0142.021 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0142.028 (0) Table mod121_term_taxonomy: Rows added in this batch (next record: 16): 12 (uncompressed bytes in this segment=1228) in 0.01 seconds
+0142.037 (0) Table mod121_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0142.049 (0) Table mod121_termmeta: Total expected rows (via COUNT): 0
+0142.051 (0) Table mod121_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=586) in 0.01 seconds
+0142.058 (0) Table mod121_termmeta: finishing file(s) (2, 0.4 KB)
+0142.062 (0) Table mod121_terms: Total expected rows (via COUNT): 12
+0142.063 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0142.068 (0) Table mod121_terms: Rows added in this batch (next record: 16): 12 (uncompressed bytes in this segment=1052) in 0.01 seconds
+0142.072 (0) Table mod121_terms: finishing file(s) (2, 0.6 KB)
+0142.080 (0) Table mod121_e_events: Total expected rows (via COUNT): 0
+0142.089 (0) Table mod121_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=553) in 0.01 seconds
+0142.095 (0) Table mod121_e_events: finishing file(s) (2, 0.4 KB)
+0142.107 (0) Table mod121_mk_components: Total expected rows (via COUNT): 11
+0142.107 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0142.110 (0) Table mod121_mk_components: Rows added in this batch (next record: 18410): 11 (uncompressed bytes in this segment=1823) in 0.01 seconds
+0142.115 (0) Table mod121_mk_components: finishing file(s) (2, 0.6 KB)
+0142.126 (0) Table mod121_wpforms_logs: Total expected rows (via COUNT): 27
+0142.127 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0142.130 (0) Table mod121_wpforms_logs: Rows added in this batch (next record: 27): 27 (uncompressed bytes in this segment=3601) in 0.01 seconds
+0142.135 (0) Table mod121_wpforms_logs: finishing file(s) (2, 0.7 KB)
+0142.152 (0) Table mod121_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0142.154 (0) Table mod121_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=763) in 0.01 seconds
+0142.160 (0) Table mod121_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0142.167 (0) Table mod121_wpforms_payments: Total expected rows (via COUNT): 0
+0142.170 (0) Table mod121_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1994) in 0.01 seconds
+0142.175 (0) Table mod121_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0142.184 (0) Table mod121_wpforms_tasks_meta: Total expected rows (via COUNT): 5
+0142.184 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0142.187 (0) Table mod121_wpforms_tasks_meta: Rows added in this batch (next record: 9): 5 (uncompressed bytes in this segment=1069) in 0.01 seconds
+0142.192 (0) Table mod121_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0142.373 (0) Table mod121_wpml_mails: Total expected rows (via COUNT): 322
+0142.374 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0142.418 (0) Table mod121_wpml_mails: Rows added in this batch (next record: 325): 322 (uncompressed bytes in this segment=500800) in 0.17 seconds
+0142.423 (0) Table mod121_wpml_mails: finishing file(s) (2, 64.4 KB)
+0142.464 (0) Table mod121_yoast_indexable: Total expected rows (via COUNT): 165
+0142.465 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0142.490 (0) Table mod121_yoast_indexable: Rows added in this batch (next record: 195): 165 (uncompressed bytes in this segment=136390) in 0.06 seconds
+0142.504 (0) Table mod121_yoast_indexable: finishing file(s) (2, 17.1 KB)
+0142.526 (0) Table mod121_yoast_indexable_hierarchy: Total expected rows (approximate): 163
+0142.549 (0) Table mod121_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 163 (uncompressed bytes in this segment=3573) in 0.03 seconds
+0142.562 (0) Table mod121_yoast_indexable_hierarchy: finishing file(s) (2, 0.9 KB)
+0142.579 (0) Table mod121_yoast_migrations: Total expected rows (via COUNT): 24
+0142.580 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0142.587 (0) Table mod121_yoast_migrations: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1301) in 0.01 seconds
+0142.593 (0) Table mod121_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0142.604 (0) Table mod121_yoast_primary_term: Total expected rows (via COUNT): 13
+0142.605 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0142.608 (0) Table mod121_yoast_primary_term: Rows added in this batch (next record: 15): 13 (uncompressed bytes in this segment=1946) in 0.01 seconds
+0142.613 (0) Table mod121_yoast_primary_term: finishing file(s) (2, 0.8 KB)
+0142.627 (0) Table mod121_yoast_seo_links: Total expected rows (via COUNT): 105
+0142.628 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0142.635 (0) Table mod121_yoast_seo_links: Rows added in this batch (next record: 4194): 105 (uncompressed bytes in this segment=14951) in 0.01 seconds
+0142.643 (0) Table mod121_yoast_seo_links: finishing file(s) (2, 2.4 KB)
+0142.660 (0) Table mod121_yoast_seo_meta: Total expected rows (via COUNT): 847
+0142.660 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0142.666 (0) Table mod121_yoast_seo_meta: Rows added in this batch (next record: 6216): 847 (uncompressed bytes in this segment=13369) in 0.01 seconds
+0142.671 (0) Table mod121_yoast_seo_meta: finishing file(s) (2, 2.4 KB)
+0142.677 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_options.table.tmpr562197.gz (1/29/fopen): adding to final database dump
+0142.687 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_options.table.gz (2/29/fopen): adding to final database dump
+0142.688 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_users.table.tmpr4.gz (3/29/fopen): adding to final database dump
+0142.688 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_users.table.gz (4/29/fopen): adding to final database dump
+0142.689 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_usermeta.table.tmpr128.gz (5/29/fopen): adding to final database dump
+0142.690 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_usermeta.table.gz (6/29/fopen): adding to final database dump
+0142.690 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_actionscheduler_actions.table.tmpr6635.gz (7/29/fopen): adding to final database dump
+0142.691 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_actionscheduler_actions.table.gz (8/29/fopen): adding to final database dump
+0142.692 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_actionscheduler_claims.table.tmpr0.gz (9/29/fopen): adding to final database dump
+0142.692 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_actionscheduler_claims.table.gz (10/29/fopen): adding to final database dump
+0142.693 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_actionscheduler_groups.table.tmpr3.gz (11/29/fopen): adding to final database dump
+0142.693 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_actionscheduler_groups.table.gz (12/29/fopen): adding to final database dump
+0142.694 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_actionscheduler_logs.table.tmpr49.gz (13/29/fopen): adding to final database dump
+0142.695 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_actionscheduler_logs.table.gz (14/29/fopen): adding to final database dump
+0142.695 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_commentmeta.table.tmpr0.gz (15/29/fopen): adding to final database dump
+0142.696 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_commentmeta.table.gz (16/29/fopen): adding to final database dump
+0142.697 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_comments.table.tmpr179.gz (17/29/fopen): adding to final database dump
+0142.698 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_comments.table.gz (18/29/fopen): adding to final database dump
+0142.699 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_links.table.tmpr0.gz (19/29/fopen): adding to final database dump
+0142.700 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_links.table.gz (20/29/fopen): adding to final database dump
+0142.700 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_postmeta.table.tmpr18334.gz (21/29/fopen): adding to final database dump
+0142.704 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_postmeta.table.gz (22/29/fopen): adding to final database dump
+0142.704 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_posts.table.tmpr6739.gz (23/29/fopen): adding to final database dump
+0142.709 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_posts.table.gz (24/29/fopen): adding to final database dump
+0142.710 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_term_relationships.table.tmpr100001.gz (25/29/fopen): adding to final database dump
+0142.710 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_term_relationships.table.gz (26/29/fopen): adding to final database dump
+0142.711 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_term_taxonomy.table.tmpr17.gz (27/29/fopen): adding to final database dump
+0142.712 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_term_taxonomy.table.gz (28/29/fopen): adding to final database dump
+0142.712 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_termmeta.table.tmpr0.gz (29/29/fopen): adding to final database dump
+0142.713 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_termmeta.table.gz (30/29/fopen): adding to final database dump
+0142.713 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_terms.table.tmpr17.gz (31/29/fopen): adding to final database dump
+0142.714 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_terms.table.gz (32/29/fopen): adding to final database dump
+0142.715 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_e_events.table.tmpr0.gz (33/29/fopen): adding to final database dump
+0142.715 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_e_events.table.gz (34/29/fopen): adding to final database dump
+0142.716 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_mk_components.table.tmpr18411.gz (35/29/fopen): adding to final database dump
+0142.717 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_mk_components.table.gz (36/29/fopen): adding to final database dump
+0142.717 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_wpforms_logs.table.tmpr28.gz (37/29/fopen): adding to final database dump
+0142.718 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_wpforms_logs.table.gz (38/29/fopen): adding to final database dump
+0142.718 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_wpforms_payment_meta.table.tmpr0.gz (39/29/fopen): adding to final database dump
+0142.719 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_wpforms_payment_meta.table.gz (40/29/fopen): adding to final database dump
+0142.719 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_wpforms_payments.table.tmpr0.gz (41/29/fopen): adding to final database dump
+0142.720 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_wpforms_payments.table.gz (42/29/fopen): adding to final database dump
+0142.721 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_wpforms_tasks_meta.table.tmpr10.gz (43/29/fopen): adding to final database dump
+0142.721 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_wpforms_tasks_meta.table.gz (44/29/fopen): adding to final database dump
+0142.722 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_wpml_mails.table.tmpr326.gz (45/29/fopen): adding to final database dump
+0142.724 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_wpml_mails.table.gz (46/29/fopen): adding to final database dump
+0142.725 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_yoast_indexable.table.tmpr196.gz (47/29/fopen): adding to final database dump
+0142.726 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_yoast_indexable.table.gz (48/29/fopen): adding to final database dump
+0142.727 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_yoast_indexable_hierarchy.table.tmpr1001.gz (49/29/fopen): adding to final database dump
+0142.727 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_yoast_indexable_hierarchy.table.gz (50/29/fopen): adding to final database dump
+0142.728 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_yoast_migrations.table.tmpr25.gz (51/29/fopen): adding to final database dump
+0142.728 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_yoast_migrations.table.gz (52/29/fopen): adding to final database dump
+0142.729 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_yoast_primary_term.table.tmpr16.gz (53/29/fopen): adding to final database dump
+0142.730 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_yoast_primary_term.table.gz (54/29/fopen): adding to final database dump
+0142.730 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_yoast_seo_links.table.tmpr4195.gz (55/29/fopen): adding to final database dump
+0142.731 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_yoast_seo_links.table.gz (56/29/fopen): adding to final database dump
+0142.731 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_yoast_seo_meta.table.tmpr6217.gz (57/29/fopen): adding to final database dump
+0142.732 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db-table-mod121_yoast_seo_meta.table.gz (58/29/fopen): adding to final database dump
+0142.783 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db.gz: finished writing out complete database file (578 KB)
+0142.814 (0) Total database tables backed up: 29 (backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db.gz, size: 592036, sha1: 5fa2690f74d2a59316b2a1633b0ae339920e5678, sha256: 290091ee8cd14587deea7c532aad24220daccc64cf72abd4a5cf657facc794a9)
+0142.850 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip: plugins: This file has already been successfully uploaded
+0142.851 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-themes.zip: themes: This file has already been successfully uploaded
+0142.853 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip: uploads: This file has already been successfully uploaded
+0142.855 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-others.zip: others: This file has already been successfully uploaded
+0142.856 (0) backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db.gz: db: This file has not yet been successfully uploaded: will queue
+0142.856 (0) Saving backup history. Total backup size: 402.5 MB
+0142.858 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0142.863 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0142.864 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-a341a16d0696babd0c84d5d955412998)
+0142.864 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0142.866 (0) Dropbox: access gained; setting chunk size to: 10240 KB
+0143.171 (0) Dropbox: quota usage: used=402 MB, total=2048 MB, available=1646 MB
+0143.172 (0) Dropbox: Attempt to upload: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db.gz to: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db.gz
+0143.983 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABII6jBO7D3pJl2aJ0jPR10loJeVH22UGGZk94bhI7EWriTtSA, 592036, 10240 KB)
+0145.327 (0) Recording as successfully uploaded: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db.gz
+0145.338 (0) Deleting local file: backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db.gz: OK
+0145.340 (0) Dropbox: File upload success (backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-db.gz): 578 KB in 2s (266 KB/s)
+0145.347 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0145.348 (0) Number of backup sets in history: 1; groups (db): 1
+0145.349 (0) Examining (for databases) backup set with group_id=0, nonce=866a96729930, datestamp=1741174039 (Mar 05 2025 11:27:19)
+0145.350 (0) This backup set is the backup set just made, so will not be deleted.
+0145.350 (0) Number of backup sets in history: 1; groups (files): 1
+0145.351 (0) Examining (for files) backup set with nonce=866a96729930, datestamp=1741174039 (Mar 05 2025 11:27:19)
+0145.351 (0) This backup set is the backup set just made, so will not be deleted.
+0145.352 (0) This backup set is the backup set just made, so will not be deleted.
+0145.352 (0) This backup set is the backup set just made, so will not be deleted.
+0145.352 (0) This backup set is the backup set just made, so will not be deleted.
+0145.352 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0145.353 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0145.358 (0) Resume backup (866a96729930, 0): finish run
+0145.362 (0) Decremented the semaphore (fd) by 1
+0145.363 (0) Semaphore (fd) unlocked
+0145.364 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0145.367 (0) Deleting zip manifest (backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-plugins.zip.list.tmp)
+0145.368 (0) Deleting zip manifest (backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-themes.zip.list.tmp)
+0145.369 (0) Deleting zip manifest (backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-uploads.zip.list.tmp)
+0145.370 (0) Deleting zip manifest (backup_2025-03-05-1327_Juliette_Bosramier_Hypnose_et__866a96729930-others.zip.list.tmp)
+0145.371 (0) No email will/can be sent - the user has not configured an email address.
+0145.371 (0) The backup succeeded and is now complete
